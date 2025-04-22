@@ -1,21 +1,15 @@
-!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Cafe Menu</title>
-<style>
-      h1 {
-        text-align:center;
-      }
-    </style>
-</head>
-  <body>
-    <main>
-      <h1>CAMPER CAFE</h1>
-      <p>Est. 2020</p>
-      <section>
-        <h2>Coffee</h2>
-      </section>
-    </main>
-  </body>
-</html>
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item p { }
